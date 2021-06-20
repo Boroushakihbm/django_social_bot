@@ -125,5 +125,59 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+
+# Packaging
+*.pyc
+__pycache__
+*.egg-info
+/dist/
+/build/
+/node_modules/
+
+# venv
+/bin/
+/lib/
+/share
+/pyvenv.cfg
+/pip-selfcheck.json
+
+# Vagrant
+.vagrant
+
+# Temporary/OS files
+*.swp
+*.swo
+*.*~
+.~lock.*
+*.DS_Store
+.python-version
+
+# IDE files
+.project
+.pydevproject
+.settings
+.idea
+.vscode
+
+# Docs
+/docs/build/*
+/src/oscar/static/
+*.pdf
+TODO
+venv
+
+# Test files
+.coverage
+.coverage\.*
+.noseids
+coverage.xml
+violations.txt
+nosetests.xml
+/.cache/
+/.pytest_cache/
+/htmlcov/*
+/.tox/*
+
 # Pyre type checker
-.pyre/
+
+django_social_bot_instagram_register/
