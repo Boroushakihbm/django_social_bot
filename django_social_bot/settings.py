@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_social_bot_instagram_register.apps.DjangoSocialBotInstagramRegisterConfig',
+    'django_social_bot_instagram_register.django_social_bot_instagram_register.apps'
+    '.DjangoSocialBotInstagramRegisterConfig',
 ]
 
 MIDDLEWARE = [
