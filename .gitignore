@@ -181,3 +181,4 @@ nosetests.xml
 # Pyre type checker
 
 django_social_bot_instagram_register/
+InstaPy/
